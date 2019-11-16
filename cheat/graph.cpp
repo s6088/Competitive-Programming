@@ -1,5 +1,8 @@
 /* ' ' has mejor effect in ordering all i(1 to n|not 0) -> graph[0].pb(i) and s[i]+=" "*/
 
+if you know of a certain algorithm or idea that can help you but it can’t be applied to your graph directly, 
+try modifying your graph until it does! This is a common technique used, 
+
 /*
 An undirected graph has an Eulerian cycle if and only if every vertex has even degree, 
 and all of its vertices with nonzero degree belong to a single connected component.
