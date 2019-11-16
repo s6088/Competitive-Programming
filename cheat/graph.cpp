@@ -1,5 +1,10 @@
 /* ' ' has mejor effect in ordering all i(1 to n|not 0) -> graph[0].pb(i) and s[i]+=" "*/
 
+/*
+An undirected graph has an Eulerian cycle if and only if every vertex has even degree, 
+and all of its vertices with nonzero degree belong to a single connected component.
+*/
+
 vector<int> topologicalSort(int V)
 {
     vector<int> inDegree(V, 0);
